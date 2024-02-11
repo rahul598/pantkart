@@ -18,7 +18,10 @@
     --btn-1-border-style: solid;  
     --btn-1-border: #202020;
     --btn-1-color-hover: #202020;
-    --btn-1-bg-hover: #ffffff;            
+    --btn-1-bg-hover: #ffffff;  
+    --rich-bg:#ffe3e4;   
+    --color-richtext: #ed4649;     
+    --fontsize-text-style: 12px;  
 }
 
 /* Buttons */
@@ -45,4 +48,16 @@
 .focus\:ring-input:focus {
     --tw-ring-opacity: 1;
     --tw-ring-color: rgb(32 32 32 / var(--tw-ring-opacity));
+  }
+
+  /* Rich Text */
+  .rich-text{
+    background-color: var(--rich-bg);
+    color: var(--color-richtext);
+    font-size: var(--fontsize-text-style);
+  }
+
+  /* Positions */
+  .position-relative{
+    position: relative !important;
   }

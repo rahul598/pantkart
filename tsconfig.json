@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/store/Providers/Provider.js", "src/app/store/admin/store.js", "src/app/store/admin/store.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/store/Providers/Provider.js", "src/app/store/admin/store.js", "src/app/store/admin/store.js", "src/app/frontend/components/Hero.jsx"],
   "exclude": ["node_modules"]
 }
