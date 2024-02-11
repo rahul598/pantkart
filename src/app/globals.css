@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --button-transition-ease: cubic-bezier(.25,.46,.45,.94);
+    --duration-long: 500ms;
+    --btn-1-color: #FFFFFF;
+    --btn-1-bg: #202020;
+    --btn-1-border: #202020;
+    --btn-1-color-hover: #202020;
+    --btn-1-bg-hover: #ffffff;
+    --btn-1-border-hover: #202020;
+    --bg-rgb-color: 79, 70, 229;
+    --bg-opacity: 0.5; 
+    --btn-1-border-width: 1px;
+    --btn-1-border-style: solid;  
+    --btn-1-border: #202020;
+    --btn-1-color-hover: #202020;
+    --btn-1-bg-hover: #ffffff;            
+}
+
+/* Buttons */
+.btn-1-bg{
+    background-color : var(--btn-1-bg);
+    color: var(--btn-1-color);
+    border-color:var(--btn-1-border);
+}
+
+.btn-1-bg:hover {
+    color: var(--btn-1-color-hover);
+    background: var(--btn-1-bg-hover);
+    border-color: var(--btn-1-border-hover);
+    transition: var(--duration-long) var(--button-transition-ease);
+    transition-property: color,background-color,border;
+}
+
+
+/* Inputs */
+:focus-visible {
+    outline: 0;
+}
+
+.focus\:ring-input:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(32 32 32 / var(--tw-ring-opacity));
+  }
