@@ -1,5 +1,8 @@
+import Collection from "./components/Collection";
 import Image from "next/image";
 import Hero from "./components/Hero";
+import Grid from "./components/Grid"
+import Occasional from "./components/Occasional"
 import Product from "./components/Products"
 export default function Home() {
   return (
@@ -12,12 +15,12 @@ export default function Home() {
            <span>FIRST PURCHASE OFFER: TAKE 30% OFF SHOPWIDE.</span> CODE APPLIED AT CHECKOUT*
          </div>
        </div>
-       <div className="adbaner">
-        <Hero src="/image-banner-2.webp" width={1920} height={420}  alt="Banner Image" />
-       </div> 
-       <div className="mt-5 mb-5">
-        <Product />        
-      </div>      
+       <Hero src="/image-banner-2.webp" width={1920} height={420}  alt="Banner Image" />
+       <Collection />
+       <Grid />
+       <Product />        
+       <Hero src="/banner-3.jpeg" width={1920} height={420}  alt="Banner Kurta" />
+       <Occasional />
     </main>
     
   );

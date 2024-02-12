@@ -61,3 +61,9 @@
   .position-relative{
     position: relative !important;
   }
+
+  /* Backgrounds */
+  .bg-top-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(138 123 185 / var(--tw-bg-opacity));
+}
